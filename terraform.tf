@@ -1,12 +1,14 @@
 terraform {
-
+/*
   cloud {
-    organization = "organization-name"
+    organization = "Devops-Trilok"
 
     workspaces {
-      name = "learn-terraform-cloud"
+      name    = "Devops-Cloud"
+      project = "Cloud"
     }
   }
+/*
 
   required_providers {
     aws = {
@@ -15,5 +17,5 @@ terraform {
     }
   }
 
-  required_version = ">= 0.14.0"
+  required_version = ">= 1.1.0"
 }
