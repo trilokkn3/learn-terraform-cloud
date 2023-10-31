@@ -1,14 +1,4 @@
 terraform {
-/*
-  cloud {
-    organization = "Devops-Trilok"
-
-    workspaces {
-      name    = "Devops-Cloud"
-      project = "Cloud"
-    }
-  }
-/*
 
   required_providers {
     aws = {
